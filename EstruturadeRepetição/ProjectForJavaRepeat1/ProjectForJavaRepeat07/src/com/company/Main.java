@@ -18,7 +18,7 @@ public class Main {
         }
         for (int i = 0; i < 5; i++) {
             if (number[i][1] == 4) {
-                System.out.println("Maior numero é o: " + (i+1) + ", equivale: " + number[i][0]);
+                System.out.println("Seu maior número é o da linha: " + (i+1) + ", que vale: " + number[i][0]);
             }
         }
 
