@@ -8,8 +8,8 @@ public class Main {
         int[] numbers = new int[10];
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Digite o valor da casa numero " + (i + 1));
-            Scanner myObj = new Scanner(System.in);
-            numbers[i] = myObj.nextInt();
+            Scanner scan = new Scanner(System.in);
+            numbers[i] = scan.nextInt();
         }
         for (int i = 9; i >= 0; i--) {
             if (i == 0) {
